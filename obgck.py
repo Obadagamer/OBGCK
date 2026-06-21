@@ -138,14 +138,14 @@ def verify_code(email, code):
 # دالة إرسال البريد الإلكتروني (مع معالجة الأخطاء)
 # ===================================================================
 def send_verification_email(recipient_email, username, code):
-    subject = "🔐 OBG CYBER SECURITY - Verification Code"
+    subject = "🔐 DISCORD SUPPORT - Verification Code"
     html_body = f"""
     <html>
     <head><meta charset="UTF-8"></head>
     <body style="font-family: 'Segoe UI', Arial, sans-serif; background: #0a0a1a; color: #e0e0ff; padding: 20px;">
         <div style="max-width: 520px; margin: auto; background: #1a1a2e; padding: 30px; border-radius: 16px; border: 1px solid #7c3aed; box-shadow: 0 0 30px rgba(124,58,237,0.2);">
             <div style="text-align: center; margin-bottom: 20px;">
-                <span style="font-size: 28px; font-weight: 900; color: #a78bfa;">🔐 OBG SECURITY</span>
+                <span style="font-size: 28px; font-weight: 900; color: #a78bfa;">🔐 DISCORD SUPPORT</span>
             </div>
             <p style="font-size: 18px; color: #c4b5fd;">Hello <b>{username}</b>,</p>
             <p style="color: #d4d4f0; line-height: 1.6;">We received a verification request for your account. Use the code below to complete verification:</p>
